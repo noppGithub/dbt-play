@@ -1,0 +1,14 @@
+hellodbt:
+  outputs:
+    dev:
+      dataset: hello_dbt
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: /home/nnopp/np/dbt-play/gcp/hello_dbt.json
+      location: asia-southeast1
+      method: service-account
+      priority: interactive
+      project: central-cto-cds-data-hub-dev
+      threads: 4
+      type: bigquery
+  target: dev

@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: hellodbt
+    schema: cds_mdc_2_4_dev
+    tables:
+      - name: sales_order
+        freshness:
+          warn_after: { count: 6, period: day }
+          error_after: { count: 12, period: day }
+        loaded_at_field: updated_at
