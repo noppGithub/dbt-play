@@ -38,9 +38,12 @@ models:
   hellodbt:
     # Config indicated by + and applies to all files under models/example/
     folder1:
-      +materialized: view
+      +materialized: table
       +persist_docs:
         relation: true
         columns: true
     folder2:
       +materialized: view
+      +persist_docs:
+        relation: true
+        columns: true

@@ -1,7 +1,6 @@
 version: 2
 
 models:
-
   - name: dbt01_simple
     description: The first table to play with
     columns:
@@ -10,12 +9,10 @@ models:
       - name: created_at
         description: The timestamp when the customer was created
 
-
-
   - name: dbt02_config_var
     description: The second table that has some variable to use
     columns:
       - name: customer_name
         description: The name of the customer
       - name: created_at
-        description: The timestamp when the customer was created
+        description: Hello description

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dbt04_refer
+    description: Just to show how refer works
+    columns:
+      - name: customer_name
+        description: The name of the customer
+      - name: cname
+        description: description 0
+      - name: crt
+        description: description 1

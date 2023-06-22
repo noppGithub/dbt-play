@@ -1,3 +1,5 @@
+{{ config(materialized='view') }}
+
 with cte as (
 select 'np' as customer_name, current_timestamp() as created_at
 union all
