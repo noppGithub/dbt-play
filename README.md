@@ -1,4 +1,11 @@
-### Let's try DBT
+### dbt_play
+
+This repo is to let you get started with `dbt-core`, so you have understanding on every basic processes.
+For the sevice account added to this project, it has access to the dataset `hello_dbt` only.
+
+Once you have understanding about this, you can try `dbt-cloud`, build some `macro`,`incremental model`, run `freshness` and more.
+
+### How to get started on my own machine ?
 - Clone this repo
 - Install DBT
     - Make sure you have `Python3` installed
